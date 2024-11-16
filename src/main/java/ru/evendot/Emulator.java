@@ -1,6 +1,6 @@
 package ru.evendot;
 
-public class main {
+public class Emulator {
     public static void main(String[] args){
 
     }
