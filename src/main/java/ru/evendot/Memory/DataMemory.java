@@ -4,15 +4,13 @@ import lombok.Setter;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
-/**
- * Память данных
- */
+// Память для данных
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class DataMemory implements Memory {
-    private final int SIZE = 512;
+    private final int SIZE = 1024;
     private char[] constantMemory = new char[SIZE];
 
     @Override
@@ -25,7 +23,4 @@ public class DataMemory implements Memory {
         this.constantMemory[address] = value;
     }
 
-    // public char[] getConstantMemory(){
-    //     return this.constantMemory;
-    // }
 }

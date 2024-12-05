@@ -5,9 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
 
-/*
- * Память команд
- */
+// Память для инструкций
 @Getter
 @Setter
 @AllArgsConstructor
